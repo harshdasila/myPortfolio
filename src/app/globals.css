@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* @import url(https://db.onlinewebfonts.com/c/4972bc805329380c98be5ccf855ab77b?family=Agustina+Signature); */
+body {
+  background-color: #ecf9fe;
+}
+.projects{
+  background-color:#a5e0fa;
+}
+.edu{
+  background-color:#8db7d7
+}
+
+@font-face{
+  font-family: "Agustina Signature";
+  src: url("https://db.onlinewebfonts.com/t/4972bc805329380c98be5ccf855ab77b.eot");
+  src: url("https://db.onlinewebfonts.com/t/4972bc805329380c98be5ccf855ab77b.eot?#iefix")format("embedded-opentype"),
+      url("https://db.onlinewebfonts.com/t/4972bc805329380c98be5ccf855ab77b.woff")format("woff"),
+      url("https://db.onlinewebfonts.com/t/4972bc805329380c98be5ccf855ab77b.woff2")format("woff2"),
+      url("https://db.onlinewebfonts.com/t/4972bc805329380c98be5ccf855ab77b.ttf")format("truetype"),
+      url("https://db.onlinewebfonts.com/t/4972bc805329380c98be5ccf855ab77b.svg#Agustina Signature")format("svg");
+  font-weight:normal;
+  font-style:normal;
+  font-display:swap;
+}
+

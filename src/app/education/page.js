@@ -66,6 +66,7 @@ const page = () => {
         
         
     </div>
+    <div className='py-10 text-2xl font-sans text-center p-3 text-gray-500'>Made with ❤️ by Harsh Dasila</div>
     </>
   )
 }

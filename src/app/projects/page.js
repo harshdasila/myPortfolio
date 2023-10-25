@@ -1,6 +1,6 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
-import projectIMG from '../images/projectIMG.svg'
+import projectIMG from '../images/projectIMG.png'
 import Image from 'next/image'
 
 const Education = () => {
@@ -49,5 +49,5 @@ const Education = () => {
     </div>
   )
 }
-
+//ok
 export default Education

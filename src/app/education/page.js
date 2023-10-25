@@ -1,5 +1,12 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
+import cuIMG from '../images/cuIMG.png'
+import Image from 'next/image'
+import capIMG from '../images/capIMG.svg'
+import ibmImg from '../images/ibm.png'
+import coursera from '../images/coursera.png'
+import standFordImg from '../images/standford.png'
+import linkedin from '../images/linkedin.png'
 
 const page = () => {
   return (
@@ -7,7 +14,7 @@ const page = () => {
     <Navbar/>
     <div className='grid grid-cols-2'>
         <div className='p-4'>
-            <img className='h-30 w-auto ' src='https://cloocast.com/wp-content/uploads/2021/10/learning.svg'></img>
+            <Image className='h-30 w-auto ' src={capIMG}></Image>
         </div>
         <div>
             <div className='text-center mt-20 text-5xl font-sans font-bold'>EDUCATION</div> 
@@ -15,25 +22,25 @@ const page = () => {
             <ul className='text-center justify-center flex p-3 m-2 '>
                 <li className='hover:transform hover:scale-105'> 
                     <a href="https://drive.google.com/file/d/1ppT66PgGNrYKCQK9mIxDWi6s-AVcSd7F/view?usp=sharing" target="_blank">
-                    <img className='h-14 w-14 mx-3 rounded-2xl' src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQo8cb6t0b5j8pdMb7qn-o9VFyKIEOkas4OBd4Do6PaHrbhpr7WTl19XJb0ZmJG1nkMaqo&usqp=CAU'></img> 
+                    <Image className='h-14 w-14 mx-3 rounded-2xl' src={coursera}></Image> 
                     </a>
                     </li>
                 <li className='hover:transform hover:scale-105'> 
                     <a href='https://drive.google.com/file/d/1Mj1v7RgWICWIu8QRrzO7nVJ6XWrEtlwI/view?usp=sharing' target='_blank'>
-                    <img className='h-14 w-14 mx-3 rounded-2xl' src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQtAcR4B42l7lz28CK2NpWRSZWFgcJZriMvL20f8mUsPj4b7u_I5Z4SNGVJYuahChIDvQ&usqp=CAU'></img> 
+                    <Image className='h-14 w-14 mx-3 rounded-2xl' src={ibmImg}></Image> 
                     </a>
                 </li>
                 <li className='hover:transform hover:scale-105'> 
                     <a href="https://drive.google.com/file/d/1CW7kt73nV1Mi43p_j_D1feQO7AeDXZ_5/view?usp=sharing" target="_blank">
-                    <img className='h-14 w-14 mx-3 rounded-2xl' src='https://identity.stanford.edu/wp-content/uploads/sites/3/2020/07/block-s-right.png'>
-                    </img> 
+                    <Image className='h-14 w-14 mx-3 rounded-2xl' src={standFordImg}>
+                    </Image> 
                     </a>
                 </li>
 
                 <li className='hover:transform hover:scale-105'> 
                     <a href='https://drive.google.com/file/d/1fNFgV_9zectbbv26vKFOBt5KVzBhflME/view?usp=sharing' target='_blank'>
-                    <img className='h-14 w-14 mx-3 rounded-2xl' src='https://cdn-icons-png.flaticon.com/512/174/174857.png'>
-                        </img> 
+                    <Image className='h-14 w-14 mx-3 rounded-2xl' src={linkedin}>
+                        </Image> 
                     </a>
                 </li>
             </ul>
@@ -44,7 +51,7 @@ const page = () => {
     
     <div className='flex justify-center items-center p-8'>
         <div className='rounded-full overflow-auto w-32 h-32 shadow-lg'>
-            <img className='object-fill w-full h-full' src='https://upload.wikimedia.org/wikipedia/commons/b/b0/Chandigarh_University_Seal.png' alt='college-logo'></img>
+            <Image className='object-fill w-full h-full' src={cuIMG}  alt='college-logo'></Image>
         </div>
         <div className='border border-gray-400 shadow-3xl  w-2/3 edu p-5 rounded-lg mx-3'>
 

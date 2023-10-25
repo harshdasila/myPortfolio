@@ -1,7 +1,6 @@
 
 import React from 'react';
-import frontendImage from "../images/FRONT_END.png"
-
+import Image from 'next/image' 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCss3, faFirefoxBrowser, faGitAlt, faGithub, faHtml5, faInstagram, faLinkedin, faLinkedinIn, faNpm, faReact, faSquareJs } from '@fortawesome/free-brands-svg-icons';
 import {
@@ -14,10 +13,13 @@ import {
   faDatabase,
 } from "@fortawesome/free-solid-svg-icons";
 import { faEnvelope } from '@fortawesome/free-regular-svg-icons';
+import toolsIMG from '../images/ToolsImg.png'
+import FrontIMG from '../images/frontendIMG.png'
+import FrontmainIMG from '../images/front.svg'
 
 const Body = () => {
-    const devImage = "https://ineuron-home.netlify.app/img/front.svg"
-    const front_end_img = "https://neuroprofiler.com/wp-content/uploads/2022/04/image-livre-blanc-2-1210x660.jpg?crop=1"
+    // const devImage = "https://ineuron-home.netlify.app/img/front.svg"
+    // const front_end_img = "https://neuroprofiler.com/wp-content/uploads/2022/04/image-livre-blanc-2-1210x660.jpg?crop=1"
   return (
     <>
     <div className='p-8 grid grid-cols-2'>
@@ -72,7 +74,7 @@ const Body = () => {
         </div>
 
         <div className='max-w-full max-h-full'>
-        <img src={devImage} alt='image'/>
+        <Image src={FrontmainIMG} width={1000} height={1000} alt='image'/>
         </div>
 
     </div>
@@ -82,7 +84,7 @@ const Body = () => {
       <div className='p-5 mt-14 grid grid-cols-2 space-x-5'>
 
         <div>
-          <img className='p-3 items-center justify-center text-center ' src={front_end_img}   alt='image'/>
+          <Image className='p-3 items-center justify-center text-center ' src={FrontIMG} width={600} height={500}   alt='image'/>
         </div>
 
         <div>
@@ -128,7 +130,8 @@ const Body = () => {
       </div>
       <div className='p-5 mt-10 grid grid-cols-2 space-x-5'>
         <div>
-          <img className='p-3 items-center justify-center text-center bg-inherit' src='https://miro.medium.com/v2/resize:fit:1400/format:webp/1*H0q1TszJ42P4-wv6pdmPTw.png'/>
+          {/* <Image className='p-3 items-center justify-center text-center bg-inherit' src='https://miro.medium.com/v2/resize:fit:1400/format:webp/1*H0q1TszJ42P4-wv6pdmPTw.png' width={500} height={500}/> */}
+          <Image className='p-3 items-center justify-center text-center bg-inherit' src={toolsIMG} width={650} height={200}/>
         </div>
         <div>
           <div className='text-6xl'>Tools & Technologies</div>

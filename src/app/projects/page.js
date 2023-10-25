@@ -1,6 +1,7 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
-import devIMG from '../images/dev.png'
+import projectIMG from '../images/projectIMG.svg'
+import Image from 'next/image'
 
 const Education = () => {
   return (
@@ -9,7 +10,7 @@ const Education = () => {
     <Navbar/>
     <div className='grid grid-cols-2 mt-10'>
       <div className=''>
-        <img className='h-[25rem] w-[74rem] p-4' src='https://www.bitello.studio/illustrations/undraw_mind_map_cwng.svg' />
+        <Image className='h-[26rem] w-[76rem] p-4' src={projectIMG} />
         
       </div>
       <div className='p-8 w-full items-center justify-center'>

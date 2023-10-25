@@ -32,7 +32,7 @@ const Education = () => {
       <div className='h-[13rem] w-[30rem] rounded-lg border border-solid border-gray-400 projects p-4 flex-row m-5 shadow-2xl'>
         <a className='text-3xl text-blue-950 font-sans font-semibold cursor-pointer' href='https://github.com/harshdasila/Path-Finder-Visualizer/tree/main/src' target='_blank'>☞ Path Finder Visualizer</a>
         <div className='p-2'>
-        A react Application Used to visualize classical path finding algorithms like BFS, DFS, Dikstra's, A-star.
+        A react Application Used to visualize classical path finding algorithms like BFS, DFS, Dikstra&apos;s, A-star.
         Features to add and remove walls.
         </div>
       </div>

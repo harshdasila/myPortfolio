@@ -131,7 +131,7 @@ const Body = () => {
       <div className='p-5 mt-10 grid grid-cols-2 space-x-5'>
         <div>
           {/* <Image className='p-3 items-center justify-center text-center bg-inherit' src='https://miro.medium.com/v2/resize:fit:1400/format:webp/1*H0q1TszJ42P4-wv6pdmPTw.png' width={500} height={500}/> */}
-          <Image className='p-3 items-center justify-center text-center bg-inherit' src={toolsIMG} width={650} height={200}/>
+          <Image className='p-3 items-center justify-center text-center bg-inherit' src={toolsIMG} width={650} height={200} alt='img'/>
         </div>
         <div>
           <div className='text-6xl'>Tools & Technologies</div>

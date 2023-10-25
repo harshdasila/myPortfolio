@@ -14,7 +14,7 @@ const page = () => {
     <Navbar/>
     <div className='grid grid-cols-2'>
         <div className='p-4'>
-            <Image className='h-30 w-auto ' src={capIMG}></Image>
+            <Image className='h-30 w-auto ' src={capIMG} alt='img'></Image>
         </div>
         <div>
             <div className='text-center mt-20 text-5xl font-sans font-bold'>EDUCATION</div> 
@@ -22,25 +22,24 @@ const page = () => {
             <ul className='text-center justify-center flex p-3 m-2 '>
                 <li className='hover:transform hover:scale-105'> 
                     <a href="https://drive.google.com/file/d/1ppT66PgGNrYKCQK9mIxDWi6s-AVcSd7F/view?usp=sharing" target="_blank">
-                    <Image className='h-14 w-14 mx-3 rounded-2xl' src={coursera}></Image> 
+                    <Image className='h-14 w-14 mx-3 rounded-2xl' src={coursera} alt='img'></Image> 
                     </a>
                     </li>
                 <li className='hover:transform hover:scale-105'> 
                     <a href='https://drive.google.com/file/d/1Mj1v7RgWICWIu8QRrzO7nVJ6XWrEtlwI/view?usp=sharing' target='_blank'>
-                    <Image className='h-14 w-14 mx-3 rounded-2xl' src={ibmImg}></Image> 
+                    <Image className='h-14 w-14 mx-3 rounded-2xl' src={ibmImg} alt='img'></Image> 
                     </a>
                 </li>
                 <li className='hover:transform hover:scale-105'> 
                     <a href="https://drive.google.com/file/d/1CW7kt73nV1Mi43p_j_D1feQO7AeDXZ_5/view?usp=sharing" target="_blank">
-                    <Image className='h-14 w-14 mx-3 rounded-2xl' src={standFordImg}>
+                    <Image className='h-14 w-14 mx-3 rounded-2xl' src={standFordImg} alt='img'>
                     </Image> 
                     </a>
                 </li>
 
                 <li className='hover:transform hover:scale-105'> 
                     <a href='https://drive.google.com/file/d/1fNFgV_9zectbbv26vKFOBt5KVzBhflME/view?usp=sharing' target='_blank'>
-                    <Image className='h-14 w-14 mx-3 rounded-2xl' src={linkedin}>
-                        </Image> 
+                    <Image className='h-14 w-14 mx-3 rounded-2xl' src={linkedin} alt='img'></Image> 
                     </a>
                 </li>
             </ul>

@@ -10,7 +10,7 @@ const Education = () => {
     <Navbar/>
     <div className='grid grid-cols-2 mt-10'>
       <div className=''>
-        <Image className='h-[26rem] w-[76rem] p-4' src={projectIMG} />
+        <Image className='h-[26rem] w-[76rem] p-4' alt='img' src={projectIMG} />
         
       </div>
       <div className='p-8 w-full items-center justify-center'>

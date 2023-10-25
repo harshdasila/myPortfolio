@@ -1,5 +1,6 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
+import devIMG from '../images/dev.png'
 
 const Education = () => {
   return (
@@ -8,7 +9,8 @@ const Education = () => {
     <Navbar/>
     <div className='grid grid-cols-2 mt-10'>
       <div className=''>
-        <img className='h-[25rem] w-[74rem] p-4' src='https://cdn-ebola.nitrocdn.com/WGVcbPplyvRbTbvyrZlDBlertoVSphyP/assets/images/optimized/rev-7adf6ac/www.cosmolex.com/wp-content/uploads/2022/10/automate-min.svg' />
+        <img className='h-[25rem] w-[74rem] p-4' src='https://www.bitello.studio/illustrations/undraw_mind_map_cwng.svg' />
+        
       </div>
       <div className='p-8 w-full items-center justify-center'>
         <div className='flex justify-center font-bold text-5xl font-mono '>PROJECTS</div>

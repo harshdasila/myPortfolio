@@ -49,5 +49,5 @@ const Education = () => {
     </div>
   )
 }
-//ok
+//ok .
 export default Education

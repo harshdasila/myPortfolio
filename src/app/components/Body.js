@@ -26,7 +26,7 @@ const Body = () => {
         <div className='mt-14 m-14'>
             <div className='text-6xl font-semibold font-mono antialiased text-blue-950'>Harsh Dasila</div>
             <div className='text-gray-400 text-4xl py-10 leading-normal'>
-            A passionate computer science student who loves technology and wants to work in cutting edge technologies. I am passionate about building end-to-end products. I'm a ideas guy and a people's person which helps me to think out of the box and able to make things done.
+            A passionate computer science student who loves technology and wants to work in cutting edge technologies. I am passionate about building end-to-end products. I&apos;m a ideas guy and a people&apos;s person which helps me to think out of the box and able to make things done.
             </div>
             <div className='space-x-6 flex'>
               

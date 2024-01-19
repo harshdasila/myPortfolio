@@ -2,7 +2,7 @@
 import React from 'react';
 import Image from 'next/image' 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCss3, faFirefoxBrowser, faGitAlt, faGithub, faHtml5, faInstagram, faLinkedin, faLinkedinIn, faNpm, faReact, faSquareJs } from '@fortawesome/free-brands-svg-icons';
+import { faCss3, faFirefoxBrowser, faGitAlt, faGithub, faHtml5, faInstagram, faLinkedin, faLinkedinIn, faNode, faNodeJs, faNpm, faReact, faSquareJs } from '@fortawesome/free-brands-svg-icons';
 import {
   faSearch,
   faAmbulance,
@@ -18,8 +18,7 @@ import FrontIMG from '../images/frontendIMG.png'
 import FrontmainIMG from '../images/front.svg'
 
 const Body = () => {
-    // const devImage = "https://ineuron-home.netlify.app/img/front.svg"
-    // const front_end_img = "https://neuroprofiler.com/wp-content/uploads/2022/04/image-livre-blanc-2-1210x660.jpg?crop=1"
+    
   return (
     <>
     <div className='p-8 grid grid-cols-2'>
@@ -64,7 +63,7 @@ const Body = () => {
             <div className='flex ml-7 h-auto
              w-50 justify-center bg-blue-900 p-2 rounded-lg group hover:bg-slate-50 border-solid border-2 border-black hover:transform hover:scale-105 transition-transform' >
 
-            <a href='https://drive.google.com/file/d/1NCgQcU9E7gSdQJkrWkqYv6KH9n8jhCWB/view?usp=sharing' target='_blank' className='text-2xl font-sans text-white group-hover:text-blue-900'>
+            <a href='https://drive.google.com/file/d/1772A3PhIV5IFGPgEgeGxS1t_Tzmo9hun/view?usp=sharing' target='_blank' className='text-2xl font-sans text-white group-hover:text-blue-900'>
              SEE MY RESUME
               </a>
              </div>
@@ -88,13 +87,19 @@ const Body = () => {
         </div>
 
         <div>
-          <div className='text-6xl'>FrontEnd Development </div>
+          <div className='text-6xl'>Full Stack Development </div>
           <div className='space-x-6 p-4 space-y-2'>
+          
             
           <FontAwesomeIcon
               icon={faReact}
               style={{ fontSize: 60, color: "#1477c2" }}
               spin
+            />
+
+          <FontAwesomeIcon
+              icon={faNodeJs}
+              style={{ fontSize: 60, color: "#1477c2" }}
             />
             
             <FontAwesomeIcon
@@ -120,8 +125,10 @@ const Body = () => {
             />
           </div>
           <ul className=''>
-            <li className='p-3 text-gray-500 font-sans text-xl'>⚡ Crafting responsive web designs for seamless cross-device experiences.</li>
             <li className='p-3 text-gray-500 font-sans text-xl'>⚡ Designing single-page applications for fluid user navigation.</li>
+            <li className='p-3 text-gray-500 font-sans text-xl'>⚡ Knowledge in creating application backend in NodeJS using Express
+
+</li>
             <li className='p-3 text-gray-500 font-sans text-xl'>⚡ Implementing modular UI components for code reusability.</li>
             <li className='p-3 text-gray-500 font-sans text-xl'>⚡ Integrating with backend APIs for real-time data synchronization</li>
             <li className='p-3 text-gray-500 font-sans text-xl'>⚡ Improving website performance through code splitting and lazy loading.</li>
@@ -161,7 +168,7 @@ const Body = () => {
           <ul className=''>
             <li className='p-3 text-gray-500 font-sans text-xl'>⚡ Languages :  C++, JavaScript, C, Python, HTML5, CSS3</li>
             <li className='p-3 text-gray-500 font-sans text-xl'>⚡ Git, Github</li>
-            <li className='p-3 text-gray-500 font-sans text-xl'>⚡ MySQL</li>
+            <li className='p-3 text-gray-500 font-sans text-xl'>⚡ MySQL, MongoDB</li>
             <li className='p-3 text-gray-500 font-sans text-xl'>⚡ Notebooks ( Google colabs, jupyter )</li>
             <li className='p-3 text-gray-500 font-sans text-xl'>⚡ Visual studio, Anaconda</li>
           </ul>
